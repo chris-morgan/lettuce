@@ -15,7 +15,7 @@ would need to do something like:
 
     from lettuce import step
 
-    @step('some step with "(.*)"'):
+    @step('some step with "(.*)"')
     def some_step(step, from):
         assert from == 'expectation', \
             "Ooops, '%s' should be equal 'expectation', but isn't" % from
@@ -34,7 +34,7 @@ The example below shows how the step above could be written taking advantage of 
     from lettuce import step
     from nose.tools import assert_equals
 
-    @step('some step with "(.*)"'):
+    @step('some step with "(.*)"')
     def some_step(step, from):
         assert_equals(from, 'expectation')
 
