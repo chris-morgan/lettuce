@@ -13,7 +13,7 @@ to handle data within steps.
 
 Step tables are here for you
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 

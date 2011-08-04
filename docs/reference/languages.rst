@@ -25,7 +25,7 @@ You can tell lettuce the language of a feature file through adding a comment in 
 english example
 ^^^^^^^^^^^^^^^
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 
@@ -38,7 +38,7 @@ english example
 brazilian portuguese example
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 

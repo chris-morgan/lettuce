@@ -68,7 +68,7 @@ first round
 
 Start describing the expected behaviour of factorial in ``zero.feature`` using English:
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 
@@ -212,7 +212,7 @@ provide a more accurate implementation of factorial:
 
 Let's provide two new scenarios, for numbers 1 and 2:
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 
@@ -313,7 +313,7 @@ new errors so we'll be able to solve them.
 [a] describe behaviour
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 

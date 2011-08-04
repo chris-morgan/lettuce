@@ -14,7 +14,7 @@ nutshell
 
 **describe your first feature**
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 

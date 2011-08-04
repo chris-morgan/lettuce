@@ -12,7 +12,7 @@ Yes, there is! :) You just need to use scenarios outlines.
 
 An example is shown below:
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 

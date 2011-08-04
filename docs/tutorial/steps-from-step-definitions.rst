@@ -5,7 +5,7 @@ calling steps from step definitions
 
 Our tests should be as expressive as possible. However, we also want to re-use steps that we've seen before. With the tools we've used so far, you could end up with seriously long step definitions.
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 
@@ -19,7 +19,7 @@ Our tests should be as expressive as possible. However, we also want to re-use s
       
 In this case, we probably had a test case (maybe several) for which it was actually valuable to express how the user interacted with the login form. That's where we got the step definitions for our login sequence. When the login form isn't especially interesting any more, however, these steps are just noise. We'd really like to be able to define something like this without duplicating our step definitions.
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 

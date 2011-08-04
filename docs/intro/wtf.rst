@@ -27,7 +27,7 @@ include their name and phone numbers.
 
 This is how Lettuce allows you to describe such feature:
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 

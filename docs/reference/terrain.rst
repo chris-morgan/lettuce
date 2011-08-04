@@ -89,7 +89,7 @@ So that, within some step file you could use things previously set on ``world``:
 
 And the feature could have something like:
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 

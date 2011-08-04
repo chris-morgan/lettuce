@@ -75,7 +75,7 @@ run, regardless of what scenario or what feature is currently running.
 
 For example, if you have a feature that looks like:
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 
@@ -113,7 +113,7 @@ depending of the status of the steps within that scenario.
 
 For example, if you have a feature that looks like:
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 
@@ -161,7 +161,7 @@ It prints every single feature, with really useful information like:
 For example, let's say you have the feature below, but only the step
 ``Given I have the string "lettuce leaves"`` is defined
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 

@@ -63,7 +63,7 @@ Lettuce will look for a ``features`` folder inside every installed app:
 
 ``@index.feature``:
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 

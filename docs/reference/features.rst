@@ -14,7 +14,7 @@ introduction.
 In order to exemplify the usage of attributes and methods below, let's
 consider that there is a feature in a file called ``some.feature``
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 
@@ -109,7 +109,7 @@ Example:
 
 But if the same feature would written in Brazilian Portuguese, for example:
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 

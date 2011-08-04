@@ -9,7 +9,7 @@ multi-line strings in your steps.
 
 Multi-line strings will do the trick
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 
@@ -63,7 +63,7 @@ stripped off and their whitespace preserved.
 
 For example
 
-.. highlight:: ruby
+.. highlight:: gherkin
 
 ::
 
