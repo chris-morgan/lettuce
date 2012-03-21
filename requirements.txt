@@ -3,3 +3,5 @@ nose
 django>=1.1.1
 sphinx
 lxml
+tornado
+coverage

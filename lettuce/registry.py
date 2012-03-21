@@ -15,6 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import sys
+import os
 import threading
 import traceback
 
@@ -23,7 +24,7 @@ world._set = False
 
 
 def _function_matches(one, other):
-    return (one.func_code.co_filename == other.func_code.co_filename and
+    return (os.path.abspath(one.func_code.co_filename) == os.path.abspath(other.func_code.co_filename) and
             one.func_code.co_firstlineno == other.func_code.co_firstlineno)
 
 
@@ -82,8 +83,8 @@ def call_hook(situation, kind, *args, **kw):
     for callback in CALLBACK_REGISTRY[kind][situation]:
         try:
             callback(*args, **kw)
-        except:
-            traceback.print_exc()
+        except Exception, e:
+            traceback.print_exc(e)
             print
             sys.exit(2)
 
